@@ -5,17 +5,16 @@
 }
 .bottom-contacts-list {
   list-style-type: none;
-
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
   & .address {
+    @include font(null, 14px, 1.71);
+    font-style: normal;
     color: var(--primary-white-color);
     text-decoration: none;
   }
   & .item-bottom {
-  color: var(--bottom-text-color);
-  text-decoration: none;
+    @include font(null, 14px, 1.71);
+    color: var(--bottom-text-color);
+    text-decoration: none;
 
   transition-property: color;
   transition-duration: 250ms;

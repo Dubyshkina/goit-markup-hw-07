@@ -12,30 +12,27 @@
     padding-bottom: 200px;
   }
   .hero-title {
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36;
-    text-align: center;
+    @include font(900, 44px, 1.36);
     letter-spacing: 0.06em;
     text-transform: uppercase;
-  
+
+    text-align: center;
     width: 696px;
     margin: 0 auto 30px;
   }
   .hero-button {
+    font-family: inherit;
+    @include font(700, 16px, 1.88);
+    letter-spacing: 0.06em;
+
     color: var(--primary-white-color);
     background-color: var(--accent-color);
   
     min-width: 216px;
-  
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
+    
     cursor: pointer;
   
     border: transparent;

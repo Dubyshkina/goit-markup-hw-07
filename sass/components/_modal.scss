@@ -56,10 +56,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   .modal-title{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height:calc(23 / 20);
+  @include font(700, 20px, calc(23 / 20));
+
   color:var(--title-text-color);
   text-align: center;
   margin-bottom: 12px;
@@ -71,16 +69,12 @@
   }
   }
   .input-text{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: calc(14 / 12);
-  display: flex;
-  
+  @include font(400, 12px, calc(14 / 12));
   letter-spacing: 0.01em;
-  
+
   color: var(--primary-text-color);
-  
+
+  display: flex;
   margin-bottom: 4px;
   }
   .input-wrap{
@@ -128,9 +122,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &::placeholder {
-      font-weight: 400;
-      font-size: 12px;
-      line-height:calc(14 / 12);
+      @include font(400, 12px, calc(14 / 12));
       letter-spacing: 0.01em;
       
       color:var(--placeholder-color);
@@ -140,10 +132,7 @@
       }
   }
   .check-text{
-    font-style:normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height:calc(24 / 14);
+    @include font(400, 14px, calc(24 / 14));
     color:var(--primary-text-color);
     display: flex;
     align-items: center;
@@ -163,11 +152,9 @@
     }
     }
   .privacy-link {
+    @include font(400, 14px, calc(24 / 14));
     color: var(--accent-color);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24 / 14);
+
     margin-left: 3px;
   }
   .modal-check:checked + .check-text span {
@@ -176,10 +163,7 @@
     fill:var(--primary-white-color);
   }
   .modal-button{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height:calc(30 / 16); 
+  @include font(700, 16px, calc(30 / 16));
   letter-spacing: 0.06em;
   
   color:var(--primary-white-color);

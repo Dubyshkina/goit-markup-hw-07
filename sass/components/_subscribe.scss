@@ -2,10 +2,7 @@
     margin-left: 93px;
   }
   .subscribe-title{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  @include font(700, 14px, calc(16 / 14));
   text-transform: uppercase;
   color: var(--primary-white-color);
   
@@ -27,10 +24,8 @@
     padding-left: 16px;
     color:var(--primary-white-color);
     &::placeholder {
-      font-weight: 400;
-      font-size: 16px;
-      line-height: calc(20 / 16);
-      
+      @include font(400, 16px, calc(20 / 16));
+
       display: flex;
       align-items: center;
       color: rgba(255, 255, 255, 0.6);
@@ -39,10 +34,7 @@
   
   .subscribe-button {
   height: 50px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
+  @include font(700, 16px, calc(30 / 16));
   letter-spacing: 0.06em;
   
   color:var(--primary-white-color);

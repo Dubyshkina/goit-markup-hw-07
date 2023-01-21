@@ -111,7 +111,9 @@ img {
 .nav .link {
   color: var(--title-text-color);
   text-decoration: none;
-  font-style: medium;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
