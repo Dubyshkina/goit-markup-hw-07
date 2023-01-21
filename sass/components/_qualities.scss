@@ -1,0 +1,29 @@
+    .quality-list {
+      list-style-type: none;
+    
+      display: flex;
+      gap: 30px;
+       & .title {
+      color: var(--title-text-color);
+    
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      text-transform: uppercase;
+    }
+    }
+  .quality-img {
+    width: 270px;
+    height: 120px;
+  
+    background: var(--secondary-background-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quality-text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
