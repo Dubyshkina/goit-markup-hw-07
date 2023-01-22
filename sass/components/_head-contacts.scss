@@ -1,4 +1,4 @@
-.header-contacts {
+.head-contacts {
   list-style-type: none;
 
   display: flex;
@@ -7,7 +7,8 @@
   margin-left: auto;
   gap: 30px;
   letter-spacing: 0.02em;
-  & .contacts-link {
+}
+.head-contacts__link {
   color: var(--primary-text-color);
   text-decoration: none;
   @include font(500, 14px, 1.14);
@@ -23,7 +24,6 @@
   color: var(--accent-color);
 }
 }
-}
-  .contacts-icon {
+  .head-contacts__icon {
     fill: currentColor;
   }

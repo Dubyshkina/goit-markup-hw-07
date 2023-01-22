@@ -6,10 +6,10 @@
     display: flex;
     gap: 30px;
   }
-  .services-item {
+  .services-list__item {
     position: relative;
   }
-  .services-text {
+  .services-list__text {
     @include font(700, 14px, calc(16 / 14));
     text-align: center;
     text-transform: uppercase;

@@ -1,8 +1,7 @@
 @import'./utils/variables';
 @import'./utils/mixins';
-@import'./reset/reset';
+@import'./utils/reset';
 @import'./utils/hide';
-
 @import'./components/page';
 @import'./components/container';
 @import'./components/header';
@@ -19,10 +18,8 @@
 @import'./components/footer';
 @import'./components/foot-contacts';
 @import'./components/follow';
-
 @import'./components/filter';
 @import'./components/examples';
-
 @import'./components/modal';
 @import'./components/subscribe';
 

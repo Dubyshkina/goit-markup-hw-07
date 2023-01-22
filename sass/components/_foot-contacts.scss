@@ -13,6 +13,7 @@
   }
   & .item-bottom {
     @include font(null, 14px, 1.71);
+    font-style: normal;
     color: var(--bottom-text-color);
     text-decoration: none;
 
